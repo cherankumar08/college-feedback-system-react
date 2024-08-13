@@ -1,0 +1,129 @@
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 62px;
+  left: 0;
+  height: 100%;
+  width: 300px; /* Default width for larger screens */
+  background-color: #fff;
+  border-right: 1px solid #ccc; /* Add border on the right side */
+  z-index: 1000;
+  overflow-y: auto; /* Add overflow-y for scrolling */
+  transition: width 0.3s ease-in-out; /* Add transition effect for opening/closing sidebar */
+}
+
+.tobeFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+/* Sidebar content */
+.sidebar-content {
+  padding: 15px;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 992px) {
+  .sidebar {
+    width: 0; /* Hide sidebar by default on smaller screens */
+  }
+  /* Show sidebar when sidebar is opened */
+  .sidebar.show {
+    width: 350px; /* Set width when sidebar is opened */
+  }
+}
+.sidebar-toggle-btn {
+  display: none; /* Hide toggle button by default on larger screens */
+}
+
+/* Toggle button for smaller screens */
+/* Media query for smaller screens */
+@media (max-width: 992px) {
+  .sidebar-toggle-btn {
+    display: block; /* Display toggle button on smaller screens */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  .sidebar {
+    transform: none;
+    visibility: visible !important;
+  }
+  .close-btn {
+    display: none;
+  }
+  .li-style {
+    text-align: left;
+  }
+  .navbar-brand {
+    margin-left: 50px;
+  }
+  main {
+    margin-top: 60px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    margin-left: 300px;
+    margin-top: 80px;
+    padding: 10px;
+  }
+}
+.nav-link {
+  font-size: 17px;
+  text-align: left;
+  color: black;
+}
+
+.nav-link:hover {
+  background-color: #c3aefe;
+  color: black;
+}
+
+.bg-purple {
+  background-color: #c3aefe;
+}
+
+.KIOT {
+  font-size: 19px;
+  line-height: 22px;
+  letter-spacing: -0.039em;
+}
+
+.sidebar-toggle-btn {
+  border-radius: 5px;
+  background-color: transparent;
+  background-color: whitesmoke;
+}
+
+#pills-tab {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #c3aefe !important;
+  color: black;
+}
+
+.handle-box {
+  min-height: 50px;
+  border-radius: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: 25px;
+}/*# sourceMappingURL=SideBar.css.map */

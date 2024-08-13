@@ -1,0 +1,37 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "CHERAN J",
+      "rollNo": "2k20cse025",
+      "Dept": "CSE",
+      "degree": "B.E",
+      "email": "2k20cse025@kiot.ac.in",
+      "registerNumber": 611220104026,
+      "currentAddress": "Balacuttapatti(Village), Semman Kudal(Post), Omalur(Taluk), Salem(District)",
+      "permanentAddress": "Balacuttapatti(Village), Semman Kudal(Post), Omalur(Taluk), Salem(District)",
+      "phoneNumber": "6383659121",
+      "fatherName": "JAYAKUMAR R",
+      "motherName": "SIVAGANDHI J",
+      "bloodGroup": "O+ve",
+      "password": "ABC123",
+      "batch": 2020
+    },
+    {
+      "id": 2,
+      "name": "CHERAN KUMAR",
+      "rollNo": "2k20cse062",
+      "Dept": "CSE",
+      "degree": "B.E",
+      "email": "2k20cse062@kiot.ac.in",
+      "registerNumber": 611220104062,
+      "currentAddress": "Balacuttapatti(Village), Semman Kudal(Post), Omalur(Taluk), Salem(District)",
+      "permanentAddress": "Balacuttapatti(Village), Semman Kudal(Post), Omalur(Taluk), Salem(District)",
+      "phoneNumber": "6383659121",
+      "fatherName": "JAYAKUMAR R",
+      "motherName": "SIVAGANDHI J",
+      "bloodGroup": "O+ve",
+      "batch": null
+    }
+  ]
+}

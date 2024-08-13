@@ -1,0 +1,147 @@
+#first-subject:checked + label + .tab{
+    display: block;
+}
+#linear-scale{
+    display: flex;
+}
+.radio-label {
+display: block;
+text-align: center;
+margin-bottom: 5px;
+margin-left: 3px;
+}
+
+#linear-scale input[type="radio"] {
+display: block;
+margin-left: 5px;
+}
+.linear-scale-qn{
+display: flex;
+flex-direction: column;
+margin-left: 25px;
+}
+#linear-scale{
+display: flex;
+margin-left: 90px;
+margin-top: 15px;
+}
+#linear-scale p{
+margin-left: 20px;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tab {
+    display: none;
+}
+
+input[type="radio"]{
+    height: 20px;
+    width: 20px;
+}
+.question-1,.question-2{
+    margin-bottom: 10px!important;
+}
+input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+.tab-label {
+    width: 155px;
+    height: 10px;
+    padding: 25px;
+    background-color: var(--color-1);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.tab{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 0 0 8px 8px;
+}
+#linear-scale p {
+    margin-top: 24px;
+}
+.question-1 + p{
+    margin-top: 10px;
+}
+.handled-by{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 8px;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: var(--color-1);
+    border-radius: 8px;
+}
+#profile-sb{
+    min-height: 80rem;
+}
+.submit-button{
+   display: flex;
+   justify-content: center;
+}
+.submit-button button{
+    margin:15px;
+}
+input[type="radio"]:checked + label {
+    /* border: 1px solid gray; */
+    background-color: whitesmoke;
+}
+.first-label{
+    border-radius: 8px 0 0 0;
+}
+.last-label{
+    border-radius: 0 8px 0 0;
+}
+.yesorno-options {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.yesorno-options input{
+    margin-right: 10px;
+
+}
+.yesorno-options input:checked + label{
+    border: none;
+}
+.yesorno-options label{
+    margin-right: 10px;
+}
+.extra-points{
+    height: 200px;
+    width: 650px;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+.small-text-box{
+    height: 100px;
+    width: 300px;
+    outline: none;
+    padding-left: 10px;
+    margin-top: -3px;
+    margin-left: 30px;
+}
+.question-1{
+    margin-bottom: 20px;
+}
+.anonymous{
+    width: 450px;
+    margin-left: 0px;
+}
+.whole-input-div{
+    display: flex;
+}
+.input-flex{
+    display: flex;
+}

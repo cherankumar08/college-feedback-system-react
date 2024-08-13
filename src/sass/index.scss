@@ -1,0 +1,11 @@
+//Importing the Mixins and Modules
+@import './abstracts/_variables.scss';
+@import './base/reset.scss';
+// @import './layout/navigation-bar.scss';
+@import './pages/landingpage.scss';
+@import './components/cardsForLandingPage.scss';
+@import '../components/SideBar.scss';
+@import './pages/profile.scss';
+@import './layout/responsivelayout.scss';
+@import './abstracts/miscellaneous.scss';
+@import './pages/_Questions.scss';

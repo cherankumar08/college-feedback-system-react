@@ -1,0 +1,166 @@
+@use "../abstracts/variables.scss";
+@use "../abstracts/mixins.scss" as *;
+
+/*Medium Screens*/
+@media (max-width: $medium-max-width) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 250px;
+    transition: all 0.3s ease;
+    z-index: 1;
+    .active {
+      left: 0;
+    }
+  }
+}
+
+/*Upto the Large Screens*/
+@media (min-width: $large-min-width) {
+  body {
+    overflow: auto;
+  }
+  .offcanvas-backdrop::before {
+    display: none !important;
+  }
+  main {
+    // margin-left:$off-canvas-width;
+    margin-top: 35px !important;
+  }
+  .sidebar-nav {
+    transform: none;
+    visibility: visible !important;
+    top: $top-navbar;
+    height: calc(100% - $top-navbar);
+  }
+}
+
+/*Upto Small Devices*/
+@media (max-width: $small-max-width) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  .linear-scale-qn {
+    margin-left: 1px !important;
+  }
+  #linear-scale {
+    @include linearScale;
+  }
+  #linear-scale-2 {
+    @include linearScale;
+  }
+  .handle-box {
+    padding: 0px !important;
+  }
+  .pad-lft {
+    padding-left: 50px;
+  }
+  .small-text-box {
+    @include smallTextBoxExtraPoints;
+    margin-left: 0;
+  }
+  .whole-input-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-txt-box-div {
+    margin-top: 10px;
+  }
+  .pd-360 {
+    padding-right: 35px;
+  }
+  .extra-points {
+    @include smallTextBoxExtraPoints;
+    margin-left: 25px;
+  }
+  .handle-box {
+    min-height: 0;
+    padding: 8px !important;
+  }
+  .name {
+    margin-bottom: 15px;
+    margin-left: 0px !important;
+  }
+  .tobeflez {
+    justify-content: center;
+    padding-left: 50px;
+  }
+  #smallScreen-margin {
+    margin-left: 50px;
+  }
+  main {
+    margin-left: 0px;
+    margin-top: 35px !important;
+  }
+}
+
+@media (max-width: $Medium-Little-bit-max-width) and (min-width: $small-max-width) {
+  .pad-lft {
+    display: flex;
+    justify-content: center;
+  }
+  .extra-points {
+    width: 450px !important;
+    height: 100px;
+    margin-left: 0;
+  }
+  .cus-pro {
+    display: flex;
+  }
+  .second-flex-2 {
+    margin-left: 50px;
+  }
+  .basic-details {
+    margin-top: 30px;
+  }
+  .tobeflez {
+    justify-content: center;
+  }
+}
+@media (max-width: 850px) and (min-width: 770px) {
+  .extra-points {
+    width: 450px !important;
+    height: 100px;
+    margin-left: 0;
+  }
+  .second-flex-2 {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: $FourK-screen) {
+  main {
+    font-size: 32px;
+    margin-left: var(--off-canvas-width);
+    margin-top: 100px !important;
+  }
+  .sidebar-nav {
+    width: 500px;
+    font-size: 32px;
+    top: 128px;
+  }
+  nav {
+    font-size: 32px;
+  }
+  .four-k {
+    margin-top: 90px;
+  }
+  .handle-box {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1330px) and (min-width: 990px) {
+  .mar-lef {
+    margin-left: 25px;
+  }
+  .cus-pro {
+    display: flex;
+    margin-left: 75px;
+  }
+}

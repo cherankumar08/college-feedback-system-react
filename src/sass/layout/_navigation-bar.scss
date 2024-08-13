@@ -1,0 +1,24 @@
+/*Navigation Bar*/
+@use '../abstracts/variables.scss' as var;
+
+.sidebar {
+    height: 100%;
+    width: var.$navbar-width;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var.$color-7;
+    padding-top: 20px;
+}
+.nav-link{
+    color: black;
+}
+.bg-side{
+    background-color: whitesmoke;
+}
+.bg-side {
+    background-color: #343a40; /* Set your desired background color */
+}
+.navbar{
+    background-color: #C3AEFE;
+}

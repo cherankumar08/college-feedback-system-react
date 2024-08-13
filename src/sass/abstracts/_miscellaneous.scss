@@ -1,0 +1,112 @@
+@use "../abstracts/variables.scss";
+
+.table-pad tbody tr {
+  padding: 150px;
+}
+td,
+tr,
+th {
+  border: 2px solid;
+}
+.wid {
+  width: 0% !important;
+}
+.col-height {
+  min-height: 350px;
+  border-radius: 8px;
+}
+.remove-pad {
+  padding-left: 0;
+}
+.navbar-toggler .toggle-button:focus {
+  border: 0px;
+  outline: none;
+}
+.bg-purple {
+  background-color: $color-1;
+}
+.btn-button-close {
+  background-color: crimson;
+  color: black;
+}
+.Admin-Main {
+  margin-top: 100px !important;
+}
+.ParentUserManagementCard {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.card-margin {
+  margin: 0px 40px;
+}
+#Report-Card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.shadow-effect {
+  border: 2px solid #9d9d9d;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.required:after {
+  content: "*";
+  color: red;
+}
+.select-type {
+  width: 300px;
+}
+.date-width {
+  width: 550px;
+  border: 2px solid;
+}
+.label-date {
+  text-align: center;
+  margin-left: -200px;
+  // margin-left: -100px;
+}
+
+.border-check {
+  border: 2px solid;
+}
+
+#select-invalid {
+  color: red;
+}
+
+#Email-invalid {
+  color: red;
+}
+
+#password-invalid {
+  color: red;
+}
+// main {
+//   // margin-left: 550px;
+//   // background-color: aquamarine;
+// }
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-purple {
+  background-color: $color-1;
+}
+
+.Question-bor {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 25px;
+}
+
+.labelStyle {
+  margin-top: 23px !important;
+}
+.labelStyle1 {
+  margin-top: 23px;
+  padding-left: 20px;
+}

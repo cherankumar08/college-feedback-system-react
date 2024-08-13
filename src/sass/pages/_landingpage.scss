@@ -1,0 +1,53 @@
+/*Importing the Cards styling in the Landing Page*/
+@import '../components/cardsForLandingPage.scss';
+
+/* Image section Animation for Landing Page*/
+#image-section{
+    min-height: 200px;
+    // background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(/static/feedbackbg.jpg);
+}
+/*Caption on the Canvas*/
+.caption{
+    color: white;
+}
+.caption .heading{
+    color:black;
+}
+.caption .heading h1{
+    cursor: pointer;
+    font-size: 50px;
+    animation: mirror 2s ease infinite backwards;
+}
+.caption  #vacancies{
+    cursor: pointer;
+    font-size: 50px;
+    animation: vacancies 2s ease infinite backwards;
+}
+/*Animation Styling for the Canvas Bg*/
+@keyframes mirror {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+      }
+      20% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    
+}
+@keyframes vacancies {
+    0%{
+    }
+    80%{
+        transform: translateY(-5px);
+    }
+    
+}
+
